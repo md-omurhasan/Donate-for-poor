@@ -1,0 +1,494 @@
+/* ==============
+common css start 
+==================== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol li {
+    list-style: none;
+}
+
+.container {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+a {
+    display: inline-block;
+    padding: 22px 45px;
+    border: 1px solid rgba(183, 49, 49, 0.783);
+    background: rgba(183, 49, 49, 0.783);
+    text-transform: capitalize;
+    color: #ffff;
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    border-radius: 60px;
+
+    text-align: center;
+
+}
+
+.title {
+    margin: 0 auto;
+}
+
+.title h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.title p {
+    width: 700px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/* ==============
+common css end 
+==================== */
+/* ==============
+banner part start 
+==================== */
+#banner {
+    background-image: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    box-shadow: -4px -154px 119px 74px rgba(0, 0, 0, 0.92) inset;
+    -webkit-box-shadow: -4px -154px 119px 74px rgba(0, 0, 0, 0.92) inset;
+    -moz-box-shadow: -4px -154px 119px 74px rgba(0, 0, 0, 0.92) inset;
+
+}
+
+#banner h1 {
+    width: 840px;
+    padding-top: 200px;
+    padding-bottom: 46px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+#banner .help {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: rgb(123, 34, 34);
+    text-shadow: rgba(187, 174, 174, 0.939);
+}
+
+#banner p {
+    width: 819px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(237, 230, 230);
+    margin: 0 auto;
+    padding-bottom: 46px;
+}
+
+#banner .btn {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* ==============
+banner part end
+==================== */
+/* ==============
+money  part start
+==================== */
+#money {
+    padding: 100px 0;
+    margin-top: 110px;
+}
+
+#money .box-part {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#money .box-part .box {
+    color: #ffff;
+    padding: 50px 30px;
+    background: #FAFAFA;
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid #FAFAFA;
+    border-radius: 5px;
+}
+
+#money .box-part .box h1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+#money .box-part .box2 {
+
+    padding: 50px 30px;
+    background: rgb(164, 57, 57);
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid rgb(77, 65, 65);
+    border-radius: 5px;
+}
+
+#money .box-part .box2 h1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+#money .input-box {
+    margin-top: 50px;
+    padding: 100px 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#money .input-box input {
+    padding: 40px 0;
+    width: 880px;
+    border: none;
+    border-bottom: 2px solid #DADADA;
+}
+
+#money .input-box :placeholder-shown {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #B3B3B3;
+    text-transform: capitalize;
+
+}
+
+#money .btn2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*================
+money part end
+=================  */
+
+/* ==============
+    plan  part start
+==================== */
+#plan {
+    margin-top: 100px;
+}
+
+#plan .title span {
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    color: rgb(164, 57, 57);
+}
+
+#plan .main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#plan .main .plan {
+    width: 33%;
+
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    box-sizing: border-box;
+    color: #ffff;
+    margin-right: 20px;
+    border-radius: 50px;
+    box-shadow: 1px 22px 34px -22px rgba(0, 0, 0, 0.76);
+    -webkit-box-shadow: 1px 22px 34px -22px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: 1px 22px 34px -22px rgba(0, 0, 0, 0.76);
+}
+
+#plan .main .plan .image {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#plan .main .plan img {
+    padding: 20px;
+    width: 85%;
+    border-radius: 50px;
+
+
+}
+
+#plan .main .plan h1 {
+    margin-top: 21px;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+#plan .main .plan .color {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+
+    text-align: left;
+    text-transform: capitalize;
+    color: rgb(136, 21, 21);
+}
+
+#plan .main .plan p {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+    text-align: left;
+    line-height: 25px;
+
+}
+
+/* ==============
+    plan  part end
+==================== */
+/* ==============
+    contribute part start
+==================== */
+#contribute {
+    background-image: url(images/donation4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#contribute .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#contribute .main {
+    margin-right: -214px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contribute .main .text {
+    width: 50%;
+}
+
+#contribute .main .image-c {
+    width: 50%;
+}
+
+#contribute .main .text h1 {
+    width: 400px;
+    font-family: 'Inter', sans-serif;
+    font-size: 47px;
+    font-weight: 800;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    color: #ffff;
+    text-transform: capitalize;
+}
+
+#contribute .main .text p {
+    width: 465px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #ffff;
+
+}
+
+#contribute .main .text h3 {
+    width: 495px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #ffff;
+
+}
+
+#contribute .main .text .btn3 {
+    padding-bottom: 20px;
+
+}
+
+#contribute .main .image-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contribute .main .image-c img {
+    width: 100%;
+    padding: 30px;
+}
+
+
+/* ==============
+    contribute part end
+==================== */
+/* ==============
+    update part start
+==================== */
+#update {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#update .subscribe {
+    display: flex;
+    margin-left: 267px;
+}
+
+#update .subscribe .input {
+    width: 70%;
+}
+
+#update .subscribe .btn4 {
+    width: 30%;
+    margin-top: 19px;
+    margin-left: -73px;
+}
+
+#update input {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 700px;
+    padding: 22px 0;
+    text-align: center;
+    border: 1px solid #B3B3B3;
+
+}
+
+#update .btn4 a {
+    display: inline-block;
+    padding: 23px 30px;
+    text-align: left;
+    color: aliceblue;
+    border-radius: 0%;
+    background: rgba(183, 49, 49, 0.783);
+    border: 1px solid rgba(183, 49, 49, 0.783);
+}
+
+/* ==============
+    update part end
+==================== */
+/* ==============
+    fooer part start
+==================== */
+footer {
+    margin-top: 100px;
+    background: black;
+}
+
+footer h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 40PX;
+    text-transform: uppercase;
+}
+
+footer .ting {
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    color: rgba(136, 43, 43, 0.945);
+    text-transform: uppercase;
+}
+
+footer h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+    color: #FAFAFA;
+    padding-bottom: 50px;
+}
+
+footer p {
+    line-height: 40px;
+    width: 500px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+    color: #FAFAFA;
+    padding-bottom: 30px;
+}
+
+footer p .quote {
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Splash', cursive;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* ==============
+    fooer part end
+==================== */
